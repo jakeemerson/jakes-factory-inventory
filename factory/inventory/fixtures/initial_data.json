@@ -1,0 +1,43 @@
+[{
+	"model": "inventory.manufacturer",
+	"pk": 1,
+	"fields": {
+		"name": "Acme Inc.",
+		"address": "1 AAA Way, Appleton, Alberta",
+		"phone": "1234567890"
+	}
+}, {
+	"model": "inventory.manufacturer",
+	"pk": 2,
+	"fields": {
+		"name": "Zenith LLC.",
+		"address": "9 Zebra Rd. Zulu, Zimbabwe",
+		"phone": "1234567899"
+	}
+}, {
+	"model": "inventory.inventoryitem",
+	"pk": 2,
+	"fields": {
+		"name": "Adze",
+		"manufacturer": 1,
+		"description": "Apple handled adze",
+		"size": "0.1,0.02,0.04",
+		"weight": 0.5,
+		"unit_of_issue": "each",
+		"quantity": 44,
+		"last_changed": "2016-12-18T16:51:34.283Z"
+	}
+}, {
+	"model": "inventory.inventoryitem",
+	"pk": 3,
+	"fields": {
+		"name": "Zip Ties",
+		"manufacturer": 2,
+		"description": "Pack of zip ties",
+		"size": "0.04,0.04,0.12",
+		"weight": 0.03,
+		"unit_of_issue": "box",
+		"quantity": 770,
+		"last_changed": "2016-12-18T16:53:08.119Z"
+	}
+}]
